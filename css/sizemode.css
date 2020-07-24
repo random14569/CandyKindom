@@ -1,0 +1,101 @@
+
+.demo-img {
+			  width: 110px;
+			  height: 110px;
+			  border-radius: 5px;//圓角
+			  
+			}
+:root {
+  --x: 5;
+  --y: 0;
+  --angle: 0;
+}
+#fadeout {
+  opacity: 1;
+  transition: 1s opacity;
+  text-align: center;
+  font-size:32px;
+}
+
+
+
+#character{
+			transform:translate( calc(var(--x) * 1px), calc(var(--y) * 1px));
+			transition-duration: 0.6s;  //完成過渡效果需要花費的時間
+			}
+.show-img {
+			overflow:auto;
+		  }
+.show-img img{transform:scale(1,1);transition: all 1s ease-out;}
+.show-img img:hover{transform:scale(1.2,1.2);}
+
+#card1{
+		width:120px;
+		height:145px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-left:50px;
+		margin-right:10px;
+		margin-top:10px;
+	}
+#card2,#card3,#card4,#card5,#card6,#card7,#card8{
+		
+		width:120px;
+		height:145px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-right:10px;
+		margin-top:10px;
+	}
+#Box1{
+		width:120px;
+		height:80px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-left:10px;
+		margin-top:35px;
+	}
+#Box2,#Box3,#Box4,#Box5,#Box6{
+		
+		width:120px;
+		height:145px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-left:10px;
+		margin-top:10px;
+	}
+#IfCard1{
+		
+		width:120px;
+		height:80px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-left:50px;
+		margin-top:10px;
+	}
+#IfCard2,#IfCard3,#IfCard4,#IfCard5,#IfCard6,#IfCard7,#IfCard8,#IfCard9{
+		
+		width:120px;
+		height:80px;
+		padding:5px;
+		border:1px #8E8E8E dashed;
+		float:left;
+		margin-left:50px;
+		margin-top:10px;
+	}
+#trashcan{
+		
+		width:100px;
+		height:120px;
+		padding:10px;
+		margin-right:10px;
+		background-image:url(trash.png);
+		background-size:100px 120px;
+		float:right;
+	}
+	
